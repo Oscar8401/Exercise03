@@ -23,7 +23,8 @@ namespace Exercise03
             //per.Age = 22;
             //per.Height= 167;
             //per.Weight= 65;
-         }
+ 
+        }
         
     }
 }

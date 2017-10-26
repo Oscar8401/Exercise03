@@ -14,13 +14,22 @@ namespace Exercise03
         private double height;
         private double weight;
 
+        private string color;
+        private string haircolor;
+        private int shoosesize;
+
         public int Age { get { return age; } set { age = value; } }
         public string FName { get { return fName; } set { fName = value; } }
         public string LName { get { return lName; } set { lName = value; } }
         public double Height { get { return height; } set { height = value; } }
         public double Weight { get { return weight; } set { weight = value; } }
 
+        public string Color { get { return color; } set { color = value; } }
+        public string Haircolor { get { return haircolor; } set { haircolor = value; } }
+        public int Shoosesize { get { return shoosesize; } set { shoosesize = value; } }
+
+
     }
- 
     
 }
+   

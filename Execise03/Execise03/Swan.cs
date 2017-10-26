@@ -23,7 +23,6 @@ namespace Execise03
             Color = color;
         }
 
-
         public override string PrintAnimal()
         {
             return "which color is it: " + color;

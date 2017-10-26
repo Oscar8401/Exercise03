@@ -53,7 +53,7 @@ namespace Exercise03
 
         public virtual string Speak()
         {
-            return "What it said? ";
+            return "It just said: Woff!";
         }
 
     }

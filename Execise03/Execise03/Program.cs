@@ -23,6 +23,7 @@ namespace Exercise03
             Animals.Add(NewAnimal);
 
             foreach (var animal in Animals) Console.WriteLine(animal.State());
+ 
             Console.ReadLine();
 
             //creating a list that take objects of type dog.
@@ -35,6 +36,8 @@ namespace Exercise03
             //9.printing out all animals stats using foreach
             //11. printing out that stats for only objects of type dog.
             foreach (var animal in Newdog) Console.WriteLine(animal.State());
+            foreach (var animal in Animals) Console.WriteLine(animal.Speak());
+
             Console.ReadLine();
 
 

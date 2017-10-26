@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
-    class Dog:Animal
+    class Dog : Animal
     {
         private string play;
 
@@ -23,9 +23,13 @@ namespace Execise03
             play = Play;
         }
 
-        public override  string PrintAnimal()
+        public override  string State()
         {
-            return "what is it doing: " +play ;
+            return "What our dog is doing now? " + play;
+        }
+        public override string Speak()
+        {
+            return "Woff!";
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
    public class Animal
     {
@@ -40,9 +40,20 @@ namespace Execise03
             weight = wei;
             age = ag;
         }
-        public virtual string PrintAnimal()
+
+
+
+
+        //creating the method.
+        //virtual is important, means this method can be overloaded. 
+        public virtual string State()
         {
-            return "name of animal" + Name + "weight of its is :" + Weight + "its age:" +age+ ".";
+            return "Our animal is: " + name + "\nWeight: " + weight + "\nAge:" +age+ ".";
+        }
+
+        public virtual string Speak()
+        {
+            return "What it said? ";
         }
 
     }

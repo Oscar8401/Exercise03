@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
     class Swan:Bird
     {
@@ -23,7 +23,7 @@ namespace Execise03
             Color = color;
         }
 
-        public override string PrintAnimal()
+        public override string State()
         {
             return "which color is it: " + color;
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
     class Bird:Animal
     {
@@ -24,7 +24,7 @@ namespace Execise03
         }
 
 
-        public override string PrintAnimal()
+        public override string State()
         {
             return "how height it fly: " + wings;
         }

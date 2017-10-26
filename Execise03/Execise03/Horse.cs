@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
    public class Horse:Animal
     {
@@ -24,7 +24,7 @@ namespace Execise03
         }
 
       
-        public override string PrintAnimal ()
+        public override string State ()
         {
             return "how speed it run's:" + run;
         }

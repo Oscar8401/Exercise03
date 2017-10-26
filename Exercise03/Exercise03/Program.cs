@@ -10,6 +10,15 @@ namespace Exercise03
     {
         static void Main(string[] args)
         {
+            //to instantiate a new person
+            Person per = new  Person();
+
+            per.FName = "Priya";
+            per.LName = "Tada";
+            per.Age = 22;
+            per.Height= 167;
+            per.Weight= 65;
+           
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
     class Pelican:Bird
     {
@@ -25,9 +25,9 @@ namespace Execise03
 
         
 
-        public override string PrintAnimal()
+        public override string Stats()
         {
-            return "How many fish it can hold: " + fish;
+            return base.Stats() + "How many fish it can hold: " + fish;
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
    public class Animal
     {
@@ -40,9 +40,13 @@ namespace Execise03
             weight = wei;
             age = ag;
         }
-        public virtual string PrintAnimal()
+        public virtual string Stats()
         {
-            return "name of animal" + Name + "weight of its is :" + Weight + "its age:" +age+ ".";
+            return " Name of animal :" + Name + " \n Weight of its is :" + Weight + " \n It's age:" +age+ ".";
+        }
+        public virtual string Speak()
+        {
+            return "what it said? ";
         }
 
     }

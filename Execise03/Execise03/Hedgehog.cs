@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Execise03
+namespace Exercise03
 {
     class Hedgehog:Animal
     {
@@ -24,9 +24,9 @@ namespace Execise03
         }
 
 
-        public override string PrintAnimal()
+        public override string Stats()
         {
-            return "how many tons are there: " + tones;
+            return base.Stats() + "how many tons are there: " + tones;
         }
     }
 }

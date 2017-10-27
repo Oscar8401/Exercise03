@@ -27,9 +27,11 @@ namespace Exercise03
         {
             return "What our dog is doing now? " + play;
         }
-        public override string Speak()
-        {
-            return "Woff!";
-        }
+        //public  string Speak()
+        //{
+        //    foreach (var animal in ) ;
+
+        //    return "Woff!";
+        //}
     }
 }

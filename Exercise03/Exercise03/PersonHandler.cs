@@ -39,19 +39,6 @@ namespace Exercise03
             return new Person();
 
         }
-
-                 
-
-        ////creating a new method
-        //public Person CreatCharacter (string color, string haircolor, int shoosesize)
-        //{
-        //    Person per = new Person();
-        //    per.Color = color;
-        //    per.Haircolor = haircolor;
-        //    per.Shoosesize = shoosesize;
-
-        //    return new Person();
-        //}
     }
  
 }
